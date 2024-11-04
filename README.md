@@ -91,7 +91,9 @@ SELECT SUM(CASE WHEN Canceled=0 THEN 1 ELSE 0 END) AS ActiveSubscriptions,
 SUM(CASE WHEN Canceled=1 THEN 1 ELSE 0 END) AS CanceledSubscriptions
 FROM [dbo].[LITACAPSTONE CUSTOMER DATA] 
 GROUP BY CustomerID
-     
+```
+
+
 ### PowerBI Dashboard
 ---
 - Create visualizations for:
