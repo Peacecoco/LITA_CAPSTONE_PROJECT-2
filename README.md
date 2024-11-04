@@ -17,8 +17,8 @@
 
 ### Project Overview
 ---
-This project shows the analysis of the customer segmentation for a subscription service. The analysis was carried out by exploring the customer data to uncover key insights such as subscription trends, cancelltions, and customer segments.
+This project shows the analysis of the customer segmentation for a subscription service. The analysis was carried out by exploring the customer data to uncover key insights such as subscription trends, cancellations, and customer segments.
 
 ### Introduction
 ---
-LITA Capstone retail store, a leading retail chain with multiple locations across the region, seeks to optimize its sales performance and improve customer engagement. With increasing competition in the market, the store's management recognizes the need for data-driven decision-making to stay ahead.
+Customer Segmentation for a subscription service, seeks to optimize its customer subscription trends and improve customer subscription patterns. With increasing competition in the market, the customer's management recognizes the need for data-driven decision-making to stay ahead.
