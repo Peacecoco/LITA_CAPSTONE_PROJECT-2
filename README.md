@@ -106,8 +106,8 @@ GROUP BY CustomerID
 - Description of visualizations and insights.
 
 ### Final Deliverables
-     - A comprehensive PowerBI dashboard showcasing customer segments, cancellations, and subscription trends.
-     - Accompanied by a report detailing findings and insights fro Excel and SQL analyses.
+- A comprehensive PowerBI dashboard showcasing customer segments, cancellations, and subscription trends.
+- Accompanied by a report detailing findings and insights fro Excel and SQL analyses.
 
 ### Appendices
 ---
