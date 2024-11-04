@@ -8,9 +8,8 @@
 4. [Data Exploration](#data-exploration)
 5. [SQL Queries](#sql-queries)
 6. [PowerBI Dashboard](#powerbi-dashboard)
-7. [Insights and Recommendations](#insights-and-recommendations)
-8. [Conclusion](#conclusion)
-9. [Appendices](#appendices)
+7. [Final Deliverables](#final-deliverables)
+8. [Appendices](#appendices)
 
 ### Customer Segmentation for a subscription service
 ---
