@@ -36,5 +36,60 @@ This project employs a combination of data exploarion, SQL querying, and data ex
    - Analysis on customer data using pivot table to find subscription patterns
    - Average subscription duration and identification of the most popular subscription types
    - Create any other interesting reports.
+
+ 
+### SQL Queries
+---
+Query 1: Tottal number of customers from each region.
+```SQL
+SELECT Region, COUNT(CustomerID) AS Total_No_of_Customers
+FROM [dbo].[LITACAPSTONE CUSTOMER DATA]
+GROUP BY Region
+```
+Query 2: Most Popular subscription type by the number of customers.
+```SQL
+SELECT SubscriptionType, COUNT(CustomerID) AS No_of_Customer
+FROM [dbo].[LITACAPSTONE CUSTOMER DATA]
+GROUP BY SubscriptionType
+```
+Query 3: Customers who canceled their subscription within 6 months.
+```SQL
+SELECT CustomerName, Canceled, SubscriptionStart 
+FROM [dbo].[LITACAPSTONE CUSTOMER DATA]
+WHERE Canceled = 0 AND
+MONTH(SubscriptionStart)
+BETWEEN 1 AND 6
+```
+Query 4: Average Subscription duration for all customers
+```  SQL
+SELECT Count(CustomerID) AS All_Customers, AVG(DATEDIFF(DAY,SubscriptionStart,SubscriptionEnd)) 
+AS Average_Subscription_Duration 
+FROM [dbo].[LITACAPSTONE CUSTOMER DATA]
+WHERE SubscriptionEnd IS NOT NULL
+```
+Query 5: Customers with subscriptions longer than 12 months.
+```SQL
+SELECT CustomerName,SubscriptionType,SubscriptionStart,SubscriptionEnd 
+FROM [dbo].[LITACAPSTONE CUSTOMER DATA]
+WHERE DATEDIFF(MONTH, SubscriptionStart,SubscriptionEnd)>=12
+```
+Query 6: Total revenue by subscription type
+```SQL
+SELECT SubscriptionType, SUM(Revenue) AS Total_Revenue
+FROM [dbo].[LITACAPSTONE CUSTOMER DATA]
+GROUP BY SubscriptionType
+
+```
+QUERY 7: Top 3 regions by subscription cancellations
+```SQL
+SELECT TOP 3 Region, Canceled 
+FROM [dbo].[LITACAPSTONE CUSTOMER DATA]
+```
+Query 8: Total number of active and canceled subscriptions
+```SQL
+SELECT SUM(CASE WHEN Canceled=0 THEN 1 ELSE 0 END) AS ActiveSubscriptions,
+SUM(CASE WHEN Canceled=1 THEN 1 ELSE 0 END) AS CanceledSubscriptions
+FROM [dbo].[LITACAPSTONE CUSTOMER DATA] 
+GROUP BY CustomerID
      
 
