@@ -92,4 +92,22 @@ SUM(CASE WHEN Canceled=1 THEN 1 ELSE 0 END) AS CanceledSubscriptions
 FROM [dbo].[LITACAPSTONE CUSTOMER DATA] 
 GROUP BY CustomerID
      
+### PowerBI Dashboard
+---
+- Create visualizations for:
+   - Customer segmentation by region and subscription type
+   - Cancellation rates by subscription type and region
+   - Average subscription duration by subscription type
+   - Total revenue by subscription counts
+   - Active and canceled subscription counts
+
+- Description of visualizations and insights.
+
+### Final Deliverables
+     - A comprehensive PowerBI dashboard showcasing customer segments, cancellations, and subscription trends.
+     - Accompanied by a report detailing findings and insights fro Excel and SQL analyses.
+
+### Appendices
+---
+- Capstone Sales Dataset
 
