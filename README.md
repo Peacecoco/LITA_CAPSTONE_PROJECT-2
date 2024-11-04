@@ -29,3 +29,12 @@ This project employs a combination of data exploarion, SQL querying, and data ex
 - Microsoft Excel for data exploration and calculation
 - SQL Server for data querying and analysis
 - PowerBI for interactive dashboard creation
+
+### Data Exploration
+---
+- EXCEL ANALYSIS
+   - Analysis on customer data using pivot table to find subscription patterns
+   - Average subscription duration and identification of the most popular subscription types
+   - Create any other interesting reports.
+     
+
