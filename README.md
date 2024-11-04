@@ -22,3 +22,10 @@ This project shows the analysis of the customer segmentation for a subscription 
 ### Introduction
 ---
 Customer Segmentation for a subscription service, seeks to optimize its customer subscription trends and improve customer subscription patterns. With increasing competition in the market, the customer's management recognizes the need for data-driven decision-making to stay ahead.
+
+### Tools Used
+---
+This project employs a combination of data exploarion, SQL querying, and data exploration, SQL querying, and data visualization technqiues using:
+- Microsoft Excel for data exploration and calculation
+- SQL Server for data querying and analysis
+- PowerBI for interactive dashboard creation
